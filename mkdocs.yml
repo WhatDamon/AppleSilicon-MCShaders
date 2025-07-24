@@ -1,0 +1,36 @@
+site_name: Apple Silicon MC 光影指南
+theme:
+  name: material
+  palette:
+        primary: "green"
+        accent: "green"
+  language: zh
+  font:
+      text: Noto Sans  # 常规字体
+      code: Jetbrains Mono  #代码块字体
+  features:  #导航
+    - navigation.instant  #即时加载
+    - navigation.tracking  #锚点跟踪
+    - navigation.sections  #次级目录在侧边栏中呈现为组，与tabs同存则有2级导航
+    - navigation.expand  #左侧边栏全展开，取消则折叠其他只展开当选
+    - navigation.top  #返回顶端
+    - search.suggest  #搜索建议，省略回车
+    - search.highlight  #搜索词高亮突出显示
+    - header.autohide  #标题自动隐藏
+
+markdown_extensions: 
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+copyright: 本网站使用 CC0 许可证供所有人免费查阅<br />由 WhatDamon 管理
+
+nav:
+  - "index.md"
+  - "M4 系列":
+    - "Mac16,1": "Mac16,1.md"
