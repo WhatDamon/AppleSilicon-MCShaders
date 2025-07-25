@@ -22,6 +22,8 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - pymdownx.superfences
+  - admonition
+  - pymdownx.details
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.emoji:
@@ -29,8 +31,20 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 copyright: 本网站使用 CC0 许可证供所有人免费查阅<br />由 WhatDamon 管理
+site_description: "致力于成为 Apple Silicon 用户提供一站式光影支持查阅服务"
 
 nav:
   - "index.md"
+  - "contribute.md"
   - "M4 系列":
     - "Mac16,1": "Mac16,1.md"
+
+extra:
+  generator: false 
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/WhatDamon
+      name: GitHub
+    - icon: fontawesome/brands/bilibili
+      link: https://space.bilibili.com/351191993
+      name: 哔哩哔哩
