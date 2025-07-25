@@ -62,7 +62,7 @@ body:
     id: proof
     attributes:
       label: 证明
-      description: 请参考 ttps://damon233.top/AppleSilicon-MCShaders/contribute#_9 .
+      description: 请参考 https://damon233.top/AppleSilicon-MCShaders/contribute#_9 .
       placeholder: 直接把图片拖拽进来即可
     validations:
       required: true
