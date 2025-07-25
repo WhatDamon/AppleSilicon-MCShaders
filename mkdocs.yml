@@ -30,6 +30,7 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
+repo_url: https://github.com/WhatDamon/AppleSilicon-MCShaders
 copyright: 本网站使用 CC0 许可证供所有人免费查阅<br />由 WhatDamon 管理
 site_description: "致力于成为 Apple Silicon 用户提供一站式光影支持查阅服务"
 
