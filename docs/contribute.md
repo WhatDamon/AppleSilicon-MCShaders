@@ -2,7 +2,7 @@
 
 我不太相信一个普通消费者手里有所有 Apple Silicon Mac......
 
-如果你可以为本文档添砖加瓦 (例如提供您拥有的设备光影支持情况), 那万分感谢!
+如果你可以为本文档添砖加瓦 (例如提供您拥有的设备光影支持情况, 修正错误等), 那万分感谢!
 
 [:octicons-mark-github-16: 打开文档 GitHub 仓库](https://github.com/WhatDamon/AppleSilicon-MCShaders){ .md-button .md-button--primary }
 
