@@ -1,6 +1,8 @@
 site_name: Apple Silicon MC 光影指南
 theme:
   name: material
+  logo: ./imgs/icon.png
+  favicon: ./imgs/icon.png
   palette:
         primary: "green"
         accent: "green"
