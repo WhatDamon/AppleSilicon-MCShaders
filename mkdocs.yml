@@ -51,3 +51,6 @@ extra:
     - icon: fontawesome/brands/bilibili
       link: https://space.bilibili.com/351191993
       name: 哔哩哔哩
+
+extra_javascript:
+  - js/detect-os.js
