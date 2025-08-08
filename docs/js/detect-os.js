@@ -1,8 +1,7 @@
 function detectMacOS() {
     const userAgent = navigator.userAgent || navigator.vendor || window.opera;
     
-    const isMacOS = /mac/i.test(userAgent) && 
-                   !/iPad|iPhone/i.test(userAgent);
+    const isMacOS = /Macintosh.*Mac OS X 10[._]15/i.test(userAgent);
     
     return isMacOS;
 }
@@ -12,7 +11,7 @@ function showNotice(message, bgColor, autoClose = false) {
 
     const notice = document.createElement('div');
     notice.id = 'os-notice';
-    const background = bgColor === 'yellow' ? '#f8a100ff' : '#419b30ff';
+    const background = bgColor === 'yellow' ? '#f8a100ff' : '#40a23e';
     const textColor = bgColor === 'yellow' ? 'black' : 'white';
 
     notice.style.cssText = `
@@ -80,8 +79,8 @@ function showNotice(message, bgColor, autoClose = false) {
 
 document.addEventListener('DOMContentLoaded', function() {
     if (detectMacOS()) {
-        showNotice('欢迎光临本站！', 'green', true);
+        showNotice('🥰 欢迎光临本站！', 'green', true);
     } else {
-        showNotice('注意，本文档只适用于 macOS', 'yellow', false);
+        showNotice('🤔 注意，本文档只适用于 Apple Silicon Mac', 'yellow', false);
     }
 });
