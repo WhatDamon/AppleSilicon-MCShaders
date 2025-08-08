@@ -46,6 +46,8 @@
 
 #### 报错信息阅读
 
+!!! note "以下内容均以 Iris 为例"
+
 === ":material-box-shadow: Iris 直接警告"
 
     部分光影可能会使用 macOS 不支持的特性, 例如 `Custom images` 等, Iris 会直接为您提供警告信息,
@@ -148,6 +150,10 @@
 
 === ":octicons-git-pull-request-16: 如果你打算提交 PR *(专业)*"
 
+    !!! warning "防混淆须知"
+
+        请务使用 `main` 分支进行贡献, 任何直接提交到 `gh-pages` 分支的 PR 不会被合并!
+
     请先在终端定位到存放目录后执行......
 
     ~~~bash
@@ -164,7 +170,28 @@
 
         您还可以通过 Xcode、MacPorts 或者直接从官网下载安装包来进行安装
 
-    如果您需要在本地预览, 可以安装 `mkdocs-material` 后执行 `mkdocs serve` 在本地查看效果
+    如果您需要在本地预览, 如果您尚未部署环境, 可以在定位到项目根目录后用终端执行：
+
+    ~~~bash
+    python3 -m venv venv # 创建虚拟环境
+    source venv/bin/activate # 激活虚拟环境
+    pip3 install mkdocs-material # 安装依赖
+    mkdocs serve # 启动本地运行
+    ~~~
+
+    !!! question "没有 Python?"
+
+        您可以通过 Homebrew 安装, 执行以下命令......
+
+        ~~~
+        brew install python
+        ~~~
+
+        您还可以通过 MacPorts、pyenv 或者直接从官网下载安装包来进行安装
+
+        如果直接使用官方安装包, 如果你能接受依赖混乱, 也可以不创建虚拟环境直接安装
+
+    现在您可以访问 `127.0.0.1:8000` 查看效果了 (端口不一定 100% 为 8000)
 
     剩下的您可以阅读[此文章](https://geek-docs.com/git/git-questions/269_git_how_to_contribute_to_someone_elses_repository.html)了解更多!
 
