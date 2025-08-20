@@ -12,5 +12,5 @@
 
 <figure>
   <img src="./imgs/shader_shot.png" />
-  <figcaption>图源 <a href="https://pd.qq.com/s/eu5j1bdp3">“〇五茶室”，@EtC</a>，搭配零雾构想材质，大概率非 Mac 截图</figcaption>
+  <figcaption>使用到了 Super Duper Vanilla + 零雾构想</figcaption>
 </figure>
