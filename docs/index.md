@@ -1,6 +1,7 @@
 # 主页
 
 !!! warning "Under Construction"
+    **本站计划进行全面升级，以改进当前项目存在的诸多错误**
 
 众所周知，Apple Silicon 依靠其强劲的单核性能一举成为了最适合玩原版 MC 或者开服的平台...
 
