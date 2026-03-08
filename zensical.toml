@@ -53,6 +53,7 @@ alternate_style = true
 [project.markdown_extensions.pymdownx.emoji]
 emoji_index = "zensical.extensions.emoji.twemoji" 
 emoji_generator = "zensical.extensions.emoji.to_svg"
+[project.plugins.offline]
 
 # Navigation - TOML array of tables
 [[project.nav]]
